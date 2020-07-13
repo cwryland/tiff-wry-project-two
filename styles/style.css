@@ -39,6 +39,11 @@ img {
   border-style: none;
 }
 
+.coming-soon {
+  display: flex;
+  max-width: 100%;
+}
+
 button, input, textarea {
   font-family: sans-serif;
   font-size: 100%;
