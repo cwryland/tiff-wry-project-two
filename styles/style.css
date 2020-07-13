@@ -7,3 +7,123 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
 /* General body styling below*/
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2rem;
+}
+
+main {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+img {
+  border-style: none;
+}
+
+button, input, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  margin: 0;
+  line-height: 1.15;
+}
+
+button, input {
+  overflow: visible;
+}
+
+textarea {
+  overflow: auto;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  width: 5%;
+  font-family: 'Kumar One Outline', sans-serif;
+  padding-left: 220px;
+}
+
+.navigation-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+li a {
+  padding: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1.4px;
+  line-height: 29px;
+}
+
+a {
+  color: #151514;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(styles/assets/header-home.jpg);
+  height: 100vh;
+  width: auto;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
