@@ -127,3 +127,55 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.heroImageContainer {
+  display: flex;
+  padding: 80px 15px 20px 0px;
+  justify-content: left;
+  width: 700px;
+  flex-wrap: nowrap;
+}
+
+.flexMaterial {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.materialPicture {
+  display: flex;
+  margin-right: 150px;
+  padding-top: 10px;
+  margin-top: 100px;
+  width: 40%;
+  height: 250px;
+}
+
+.materialContent p {
+  font-family: 'lato', sans-serif;
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  width: 60%;
+  justify-content: flex-start;
+}
+
+.gallery {
+  display: flex;
+  background-color: #e0fddf;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.materialContent h2 {
+  font-family: 'Kumar One';
+  margin-left: 100px;
+  padding-top: 150px;
+  width: 60%;
+  font-size: 2rem;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
